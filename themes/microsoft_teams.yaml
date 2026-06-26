@@ -1,0 +1,119 @@
+Microsoft Teams:
+  #################################################################
+  # COLORI PRINCIPALI
+  #################################################################
+  primary-color: "#5059C9"
+  accent-color: "#7B83EB"
+  rgb-primary-color: "80, 89, 201"
+
+  #################################################################
+  # HEADER
+  #################################################################
+  app-header-background-color: "#464EB8"
+  app-header-text-color: "#FFFFFF"
+  app-header-selection-bar-color: "#AAB1FF"
+
+  #################################################################
+  # SFONDI
+  #################################################################
+  background-color: "#F3F2F1"
+  primary-background-color: "#F3F2F1"
+  secondary-background-color: "#FFFFFF"
+  lovelace-background: "#F3F2F1"
+
+  #################################################################
+  # CARD
+  #################################################################
+  card-background-color: "#FFFFFF"
+  ha-card-background: "#FFFFFF"
+  paper-card-background-color: "#FFFFFF"
+  paper-dialog-background-color: "#FFFFFF"
+
+  #################################################################
+  # TESTI
+  #################################################################
+  primary-text-color: "#252423"
+  secondary-text-color: "#605E5C"
+  disabled-text-color: "#A19F9D"
+
+  #################################################################
+  # SIDEBAR
+  #################################################################
+  sidebar-background-color: "#FFFFFF"
+  sidebar-text-color: "#323130"
+  sidebar-icon-color: "#605E5C"
+  sidebar-selected-background-color: "#ECEEFF"
+  sidebar-selected-text-color: "#464EB8"
+  sidebar-selected-icon-color: "#464EB8"
+
+  #################################################################
+  # ICONE BASE
+  #################################################################
+  state-icon-color: "#616161"
+  state-icon-active-color: "#5059C9"
+
+  #################################################################
+  # STATO GENERICO
+  #################################################################
+  state-active-color: "#5059C9"
+  state-inactive-color: "#6B6A69"
+
+  #################################################################
+  # INPUT BOOLEAN (bottoni telecamere)
+  #################################################################
+  state-input_boolean-on-color: "#5059C9"
+  state-input_boolean-off-color: "#6B6A69"
+
+  #################################################################
+  # SWITCH (toggle)
+  #################################################################
+  state-switch-on-color: "#5059C9"
+  state-switch-off-color: "#6B6A69"
+
+  #################################################################
+  # BINARY SENSOR (porte/finestre -> alert)
+  #################################################################
+  state-binary_sensor-on-color: "#C4314B"
+  state-binary_sensor-off-color: "#6B6A69"
+
+  #################################################################
+  # DIVISORI
+  #################################################################
+  divider-color: "#E1DFDD"
+
+  #################################################################
+  # TOGGLE VISIVI
+  #################################################################
+  switch-checked-color: "#5059C9"
+  switch-checked-track-color: "#B8BEFF"
+  switch-unchecked-color: "#8A8886"
+  switch-unchecked-track-color: "#D2D0CE"
+
+  paper-toggle-button-checked-button-color: "#5059C9"
+  paper-toggle-button-checked-bar-color: "#B8BEFF"
+  paper-toggle-button-unchecked-button-color: "#8A8886"
+  paper-toggle-button-unchecked-bar-color: "#D2D0CE"
+
+  #################################################################
+  # BOTTONI
+  #################################################################
+  mdc-theme-primary: "#5059C9"
+  mdc-theme-secondary: "#7B83EB"
+
+  #################################################################
+  # TAB
+  #################################################################
+  paper-tab-ink: "#5059C9"
+  paper-tabs-selection-bar-color: "#5059C9"
+
+  #################################################################
+  # ERROR / SUCCESS
+  #################################################################
+  error-color: "#C4314B"
+  success-color: "#107C10"
+
+  #################################################################
+  # CARD STYLE
+  #################################################################
+  ha-card-border-radius: "14px"
+  ha-card-box-shadow: "0 1px 3px rgba(0,0,0,0.10)"
