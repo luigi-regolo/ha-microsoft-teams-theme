@@ -117,3 +117,123 @@ Microsoft Teams:
   #################################################################
   ha-card-border-radius: "14px"
   ha-card-box-shadow: "0 1px 3px rgba(0,0,0,0.10)"
+
+Microsoft Teams Dark:
+  #################################################################
+  # COLORI PRINCIPALI
+  #################################################################
+  primary-color: "#7B83EB"
+  accent-color: "#AAB1FF"
+  rgb-primary-color: "123, 131, 235"
+
+  #################################################################
+  # HEADER
+  #################################################################
+  app-header-background-color: "#2D2C5E"
+  app-header-text-color: "#FFFFFF"
+  app-header-selection-bar-color: "#AAB1FF"
+
+  #################################################################
+  # SFONDI
+  #################################################################
+  background-color: "#1F1F1F"
+  primary-background-color: "#1F1F1F"
+  secondary-background-color: "#2D2D2D"
+  lovelace-background: "#1F1F1F"
+
+  #################################################################
+  # CARD
+  #################################################################
+  card-background-color: "#2D2D2D"
+  ha-card-background: "#2D2D2D"
+  paper-card-background-color: "#2D2D2D"
+  paper-dialog-background-color: "#2D2D2D"
+
+  #################################################################
+  # TESTI
+  #################################################################
+  primary-text-color: "#F3F2F1"
+  secondary-text-color: "#C8C6C4"
+  disabled-text-color: "#605E5C"
+
+  #################################################################
+  # SIDEBAR
+  #################################################################
+  sidebar-background-color: "#252525"
+  sidebar-text-color: "#F3F2F1"
+  sidebar-icon-color: "#C8C6C4"
+  sidebar-selected-background-color: "#3D3D7A"
+  sidebar-selected-text-color: "#AAB1FF"
+  sidebar-selected-icon-color: "#AAB1FF"
+
+  #################################################################
+  # ICONE BASE
+  #################################################################
+  state-icon-color: "#C8C6C4"
+  state-icon-active-color: "#AAB1FF"
+
+  #################################################################
+  # STATO GENERICO
+  #################################################################
+  state-active-color: "#AAB1FF"
+  state-inactive-color: "#8A8886"
+
+  #################################################################
+  # INPUT BOOLEAN (bottoni telecamere)
+  #################################################################
+  state-input_boolean-on-color: "#AAB1FF"
+  state-input_boolean-off-color: "#8A8886"
+
+  #################################################################
+  # SWITCH (toggle)
+  #################################################################
+  state-switch-on-color: "#AAB1FF"
+  state-switch-off-color: "#8A8886"
+
+  #################################################################
+  # BINARY SENSOR (porte/finestre -> alert)
+  #################################################################
+  state-binary_sensor-on-color: "#F25767"
+  state-binary_sensor-off-color: "#8A8886"
+
+  #################################################################
+  # DIVISORI
+  #################################################################
+  divider-color: "#3B3A39"
+
+  #################################################################
+  # TOGGLE VISIVI
+  #################################################################
+  switch-checked-color: "#7B83EB"
+  switch-checked-track-color: "#3D3D7A"
+  switch-unchecked-color: "#605E5C"
+  switch-unchecked-track-color: "#3B3A39"
+
+  paper-toggle-button-checked-button-color: "#7B83EB"
+  paper-toggle-button-checked-bar-color: "#3D3D7A"
+  paper-toggle-button-unchecked-button-color: "#605E5C"
+  paper-toggle-button-unchecked-bar-color: "#3B3A39"
+
+  #################################################################
+  # BOTTONI
+  #################################################################
+  mdc-theme-primary: "#7B83EB"
+  mdc-theme-secondary: "#AAB1FF"
+
+  #################################################################
+  # TAB
+  #################################################################
+  paper-tab-ink: "#AAB1FF"
+  paper-tabs-selection-bar-color: "#AAB1FF"
+
+  #################################################################
+  # ERROR / SUCCESS
+  #################################################################
+  error-color: "#F25767"
+  success-color: "#92C353"
+
+  #################################################################
+  # CARD STYLE
+  #################################################################
+  ha-card-border-radius: "14px"
+  ha-card-box-shadow: "0 1px 3px rgba(0,0,0,0.40)"
