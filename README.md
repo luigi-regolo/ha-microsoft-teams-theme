@@ -1,6 +1,15 @@
+[README.md](https://github.com/user-attachments/files/29454194/README.md)
 # 🟣 Microsoft Teams Theme for Home Assistant
 
-A clean, modern Home Assistant theme inspired by the **Microsoft Teams** interface — featuring the iconic Teams Purple palette with full support for both light and dark mode.
+A clean, modern Home Assistant theme **inspired by the Microsoft Teams interface** — featuring a bold indigo/violet palette with full support for both light and dark mode.
+
+> ⚠️ This project is not affiliated with, endorsed by, or associated with Microsoft Corporation or Microsoft Teams in any way. All trademarks belong to their respective owners.
+
+---
+
+## 📸 Preview
+
+![Dashboard Preview](preview.png)
 
 ---
 
@@ -8,13 +17,13 @@ A clean, modern Home Assistant theme inspired by the **Microsoft Teams** interfa
 
 | Role | Color | Hex |
 |------|-------|-----|
-| Primary / Accent | Teams Purple | `#6264A7` |
-| Sidebar Dark | Charcoal | `#292929` |
-| Header Dark | Teams Violet | `#464775` |
-| Background Light | Off-White | `#F5F5F5` |
-| Background Dark | Near Black | `#201F1E` |
-| Error | Teams Red | `#C4314B` |
-| Success | Teams Green | `#237B4B` |
+| Primary | Indigo | `#5059C9` |
+| Accent | Soft Violet | `#7B83EB` |
+| Header | Deep Indigo | `#464EB8` |
+| Background Light | Off-White | `#F3F2F1` |
+| Background Dark | Near Black | `#1F1F1F` |
+| Error | Red | `#C4314B` |
+| Success | Green | `#107C10` |
 
 ---
 
@@ -45,8 +54,8 @@ A clean, modern Home Assistant theme inspired by the **Microsoft Teams** interfa
 
 | Theme name | Description |
 |------------|-------------|
-| `microsoft_teams` | Light mode with auto dark variant |
-| `microsoft_teams_dark` | Dedicated dark mode |
+| `Microsoft Teams` | Light mode |
+| `Microsoft Teams Dark` | Dark mode |
 
 ---
 
@@ -58,7 +67,7 @@ A clean, modern Home Assistant theme inspired by the **Microsoft Teams** interfa
 ```yaml
 service: frontend.set_theme
 data:
-  name: microsoft_teams
+  name: Microsoft Teams
 ```
 
 ---
@@ -69,4 +78,4 @@ MIT License — free to use, modify and share.
 
 ---
 
-*Made with 💜 for the Home Assistant community*
+*This theme is inspired by the Microsoft Teams UI. Not affiliated with Microsoft Corporation.*
