@@ -1,7 +1,7 @@
-[README.md](https://github.com/user-attachments/files/29454194/README.md)
+[README.md](https://github.com/user-attachments/files/29460907/README.md)
 # 🟣 Microsoft Teams Theme for Home Assistant
 
-A clean, modern Home Assistant theme **inspired by the Microsoft Teams interface** — featuring a bold indigo/violet palette with full support for both light and dark mode.
+A clean, modern Home Assistant theme **inspired by the Microsoft Teams interface** — featuring a bold indigo/violet palette.
 
 > ⚠️ This project is not affiliated with, endorsed by, or associated with Microsoft Corporation or Microsoft Teams in any way. All trademarks belong to their respective owners.
 
@@ -20,8 +20,7 @@ A clean, modern Home Assistant theme **inspired by the Microsoft Teams interface
 | Primary | Indigo | `#5059C9` |
 | Accent | Soft Violet | `#7B83EB` |
 | Header | Deep Indigo | `#464EB8` |
-| Background Light | Off-White | `#F3F2F1` |
-| Background Dark | Near Black | `#1F1F1F` |
+| Background | Off-White | `#F3F2F1` |
 | Error | Red | `#C4314B` |
 | Success | Green | `#107C10` |
 
@@ -55,13 +54,12 @@ A clean, modern Home Assistant theme **inspired by the Microsoft Teams interface
 | Theme name | Description |
 |------------|-------------|
 | `Microsoft Teams` | Light mode |
-| `Microsoft Teams Dark` | Dark mode |
 
 ---
 
 ## ⚙️ Activation
 
-**Via UI:** Profile → Theme → select *Microsoft Teams* or *Microsoft Teams Dark*
+**Via UI:** Profile → Theme → select *Microsoft Teams*
 
 **Via automation / service call:**
 ```yaml
