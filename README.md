@@ -143,7 +143,7 @@ Below you can see how the card looks when the critical state is triggered:
 
 ![Critical state example](card-state.png)
 
-You can adapt this pattern to any sensor by replacing `sensor.batterie_dispositivi` with your entity and adjusting the threshold and colors from the palette above.
+You can adapt this pattern to any sensor by replacing `sensor.batterie_dispositivi` with your own entity (e.g. a `binary_sensor.porta_ingresso` or `binary_sensor.finestra`), adjusting the condition (`states('...') == 'on'` instead of a numeric threshold), and tuning the colors from the palette above.
 
 ---
 
