@@ -141,7 +141,7 @@ card_mod:
 
 Below you can see how the card looks when the critical state is triggered:
 
-![Critical state example](card-stare.png)
+![Critical state example](card-state.png)
 
 You can adapt this pattern to any sensor by replacing `sensor.batterie_dispositivi` with your entity and adjusting the threshold and colors from the palette above.
 
