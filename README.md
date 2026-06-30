@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29461088/README.md)
 # 🟣 Microsoft Teams Theme for Home Assistant
 
 A clean, modern Home Assistant theme **inspired by the Microsoft Teams interface** — featuring a bold indigo/violet palette.
@@ -41,10 +40,10 @@ The theme is built around a consistent semantic palette. Use these colors in you
 
 1. Copy `themes/microsoft_teams.yaml` into your `config/themes/` folder
 2. In `configuration.yaml`, make sure you have:
-   ```yaml
+```yaml
    frontend:
      themes: !include_dir_merge_named themes
-   ```
+```
 3. Restart Home Assistant
 
 ---
@@ -139,6 +138,10 @@ card_mod:
 **How it works:**
 - 🔴 Battery ≤ 20% → card turns `critical_red` (`#C4314B`) with white text and icon
 - ⚪ Battery > 20% → card stays neutral white with grey text
+
+Below you can see how the card looks when the critical state is triggered:
+
+![Critical state example](card-stare.png)
 
 You can adapt this pattern to any sensor by replacing `sensor.batterie_dispositivi` with your entity and adjusting the threshold and colors from the palette above.
 
